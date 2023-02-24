@@ -10,7 +10,6 @@ jest.mock('../state/hook/useListaDeParticipantes', () => {
     }
 })
 
-
 describe('uma lista vazia de participantes', () => {
     beforeEach(() => {
         (useListaDeParticipantes as jest.Mock).mockReturnValue([])
